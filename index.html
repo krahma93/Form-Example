@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+    <link rel="stylesheet" href="main.css">
+
+    <title>Sign Up To NorthCoders!</title>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+      <wrapper class="wrapper">
+          <main>
+        <h1 class="title">Account Registration</h1>
+    <form 
+    method="GET"
+    action="./success.html"
+    class="signup-form"
+    id="signup-form">
+      <fieldset>
+        <!-- <div class="form_wrap"> -->
+            <!-- <div class="input_grp"> -->
+        <div class="input_wrap">
+        <label for="firstname-input">First name:</label
+        ><input id="firstname-input" type="text" name="first-name" class="signup-input"/>
+        <p id="first-error"></p>
+        </div>
+
+        <div class="input_wrap">
+        <label for="surname-input">Last name:</label
+        ><input id="surname-input" type="text" name="surname"  class="signup-input"/>
+        <p id="surname-error"></p>
+    </div>
+
+    <div class="input_wrap">
+
+        <label for="username">Username:</label
+        ><input id="username" type="text" name="user-name"   class="signup-input"/>
+        <p id="username-error"></p>
+    </div>
+    <div class="input_wrap">
+
+        <label for="avatar">Avatar URL:</label
+        ><input id="avatar" type="URL" name="avatar-url" class="signup-input"/>
+        <p id="avatarUrl-error"></p>
+    </div>
+
+        <legend>
+            Please fill out all the required field to set up an account.
+        </legend>
+        <div class="input_wrap">
+
+            <button class="clear_btn" type="reset">Clear</button>
+        <button class="submit_btn" type="submit">Submit</button>
+    <!-- </div> -->
+</div>
+      </fieldset>
+    </form>
+</wrapper>
+</main>
+  </body>
+</html>

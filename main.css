@@ -1,0 +1,90 @@
+
+body{
+	padding: 0;
+	margin: 0;	
+	width: 100vw;
+	height: 100vh;	
+    background: linear-gradient(
+        105deg,
+        #88beee ,
+        #0a2e73)
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.signup-form{
+    background: white;
+    padding: 25px;
+    border-radius: 5px;
+    width: 600px;
+  }
+  .title{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    background:rgb(13, 98, 215);
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: -25px;
+    margin-left:-25px;
+    margin-right:-25px;
+  }
+
+  .input_wrap{
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left:45px;
+    margin-right:25px;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    color: #1a1a1f;
+    border-color: #063abd;
+    align-items: center;
+    text-align: center;
+
+    position: relative;
+
+
+
+  }
+
+  .submit_btn{
+    width: 100%;
+    background: #0d6ad7;
+    padding: 10px;
+    border: 0;
+    color:white;
+    font-size:17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  .clear_btn{
+    width: 100%;
+    background: #f87249;
+    padding: 10px;
+    border: 0;
+    color:white;
+    font-size:17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+
+
+.invalid { 
+    background-color:rgb(238, 102, 102)
+}
+
+.valid {background-color: rgb(105, 252, 105);}
